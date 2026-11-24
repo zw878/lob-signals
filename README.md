@@ -11,11 +11,10 @@ the top-minus-bottom spread.
 
 ## Project context
 
-This toolkit was extracted from a course project, *Beyond TWAP: Intelligent
-Execution with Order Book Signals* (ORIE 5259, Cornell; with C. Feng, J. Kang
-and Y. Zhao). The project used licensed five-level limit-order-book data on
-AMZN, GOOG, INTC and MSFT, and compared three execution rules against a TWAP
-benchmark:
+This toolkit was extracted from a team course project, *Beyond TWAP: Intelligent
+Execution with Order Book Signals* (ORIE 5259, Cornell). The project used
+licensed five-level limit-order-book data on AMZN, GOOG, INTC and MSFT, and
+compared three execution rules against a TWAP benchmark:
 
 1. **Order imbalance and microprice pressure** — a rule-based threshold: buy
    earlier when the pressure score clears a threshold, sell earlier when it
